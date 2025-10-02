@@ -36,5 +36,5 @@ jobs:
         with:
           app-name: 'iottu-java'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_cf6ea3b1c63a4f1b99076c2d214385db }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_38cf388418684a63ba0115f56d8b1145 }}
           package: '${{ github.workspace }}/build/libs/*.jar'
